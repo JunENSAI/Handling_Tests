@@ -16,7 +16,7 @@ The `pytest.ini` file is the control center for your testing framework. It sits 
 
 * **Register Markers:** Define categories like `@pytest.mark.slow` or `@pytest.mark.integration`.
 
-* **Enforce Strictness:** You can configure Pytest to fail if a developer creates a typo in a marker name (e.g., `@pytest.mark.smok` instead of `smoke`). [cite_start]This is crucial for CI/CD environments.
+* **Enforce Strictness:** You can configure Pytest to fail if a developer creates a typo in a marker name (e.g., `@pytest.mark.smok` instead of `smoke`). This is crucial for CI/CD environments.
 
 * **Set Defaults:** Define default command-line arguments (e.g., always showing verbose output).
 
